@@ -1,0 +1,21 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title><h1>SkeletonAPP</h1></ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Login</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-input label="Usuario" label-placement="floating" fill="solid"helperText="Usuario máximo 8 caracteres" 
+  [counter]="true" [maxlength]="8" [minlength]="3" placeholder="Ingrese Usuario"></ion-input>
+
+<br />
+
+<ion-input label="Password" label-placement="floating" type="password" fill="outline" helperText="Contraseña máximo 4 caracteres"
+[counter]="true" [maxlength]="4" placeholder="Ingrese contraseña"></ion-input>
+<ion-button size="large">Ingresar</ion-button>
+</ion-content>
